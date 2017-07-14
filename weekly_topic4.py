@@ -13,18 +13,44 @@ print("Week 1 Topic:")
 print(random_topic)
 topics.remove(random_topic)
 print(topics)
+
 random_topic = random.choice(topics)
 print("Week 2 Topic:")
 print(random_topic)
 topics.remove(random_topic)
 print(topics)
+
 random_topic = random.choice(topics)
 print("Week 3 Topic:")
 print(random_topic)
 topics.remove(random_topic)
 print(topics)
+
 random_topic = random.choice(topics)
 print("Week 4 Topic:")
 print(random_topic)
 topics.remove(random_topic)
 print(topics)
+
+# gave me the result I wanted but now I want to do it
+# cleaner with less code
+
+# Week 1 Topic:
+# coding
+# ['arduino', 'fashion', 'gaming']
+# Week 2 Topic:
+# fashion
+# ['arduino', 'gaming']
+# Crystals-MacBook-Pro:Messing Around kmist$ python3 weekly_topic.py
+# Week 1 Topic:
+# coding
+# ['arduino', 'fashion', 'gaming']
+# Week 2 Topic:
+# gaming
+# ['arduino', 'fashion']
+# Week 3 Topic:
+# fashion
+# ['arduino']
+# Week 4 Topic:
+# arduino
+# []
